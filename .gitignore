@@ -75,3 +75,6 @@ DerivedDataCache/*
 /Aura/Binaries
 /Aura/Intermediate/Build
 /Aura/Saved/Logs
+/Aura/Saved/Config
+/Aura/Intermediate/Config
+/Aura/Intermediate
