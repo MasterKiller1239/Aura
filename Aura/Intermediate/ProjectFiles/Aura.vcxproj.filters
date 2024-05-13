@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Aura.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Aura.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\AuraEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Aura">
+      <UniqueIdentifier>{171ED4C2-8F97-3FFE-B0B6-01D55C378E24}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Aura\Aura.Build.cs">
+      <Filter>Source\Aura</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Aura\Aura.cpp">
+      <Filter>Source\Aura</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\Aura.h">
+      <Filter>Source\Aura</Filter>
+    </ClInclude>
+    <Filter Include="Source\Aura\Private">
+      <UniqueIdentifier>{614644D7-6FA7-303B-9CB5-F9579003D315}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Aura\Private\AuraCharacterBase.cpp">
+      <Filter>Source\Aura\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Aura\Public">
+      <UniqueIdentifier>{812D085E-218E-32A1-B6D9-A817B3D0072A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Aura\Public\AuraCharacterBase.h">
+      <Filter>Source\Aura\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
